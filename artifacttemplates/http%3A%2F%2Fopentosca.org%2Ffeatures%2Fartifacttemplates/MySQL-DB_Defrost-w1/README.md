@@ -1,6 +1,4 @@
-# TOSCA Definitions Management Feature Enrichment Repository [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-> Example TOSCA definitions demonstrating the [management feature enrichment functionality](https://www.iaas.uni-stuttgart.de/publications/INPROC-2019-33-Adding_Managment_Features.pdf) implemented in the [OpenTOSCA ecosystem](http://opentosca.github.io).
+# MySQL-DB-DefrostIA [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Haftungsausschluss
 

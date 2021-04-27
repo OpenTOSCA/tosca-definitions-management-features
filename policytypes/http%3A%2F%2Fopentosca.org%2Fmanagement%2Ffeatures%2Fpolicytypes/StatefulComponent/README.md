@@ -1,6 +1,6 @@
-# TOSCA Definitions Management Feature Enrichment Repository [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Stateful Component Annotation [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-> Example TOSCA definitions demonstrating the [management feature enrichment functionality](https://www.iaas.uni-stuttgart.de/publications/INPROC-2019-33-Adding_Managment_Features.pdf) implemented in the [OpenTOSCA ecosystem](http://opentosca.github.io).
+> This policy type can be attached to a component which maintains a state between requests, i.e., it is a stateful component. For example, a database or a message queue.
 
 ## Haftungsausschluss
 
