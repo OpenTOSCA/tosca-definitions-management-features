@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Definitions xmlns="http://docs.oasis-open.org/tosca/ns/2011/12" xmlns:winery="http://www.opentosca.org/winery/extensions/tosca/2013/02/12" targetNamespace="http://opentosca.org/features/nodetypes" id="winery-defs-for_features-MySQL-DB_Test-w1">
+    <NodeType name="MySQL-DB_Test-w1" abstract="no" final="no" targetNamespace="http://opentosca.org/features/nodetypes" winery:bordercolor="#c769c9">
+        <Tags>
+            <Tag name="isStateful" value="true"/>
+        </Tags>
+        <DerivedFrom xmlns:nodeTypes="http://opentosca.org/nodetypes" typeRef="nodeTypes:MySQL-DB_w1"/>
+        <Interfaces>
+            <Interface name="http://opentosca.org/interfaces/tests">
+                <Operation name="testConnection">
+                    <InputParameters>
+                        <InputParameter name="DBName" type="xsd:string" required="yes"/>
+                        <InputParameter name="DBUser" type="xsd:string" required="yes"/>
+                        <InputParameter name="DBPassword" type="xsd:string" required="yes"/>
+                        <InputParameter name="DBMSPort" type="xsd:string" required="yes"/>
+                    </InputParameters>
+                    <OutputParameters>
+                        <OutputParameter name="Result" type="xsd:string" required="yes"/>
+                    </OutputParameters>
+                </Operation>
+            </Interface>
+        </Interfaces>
+    </NodeType>
+</Definitions>
