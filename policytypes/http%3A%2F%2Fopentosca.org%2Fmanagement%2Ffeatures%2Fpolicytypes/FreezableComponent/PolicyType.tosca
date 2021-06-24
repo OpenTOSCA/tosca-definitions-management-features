@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Definitions targetNamespace="http://opentosca.org/management/features/policytypes"
-             id="winery-defs-for_featurePolicyTypes-FreezableComponent" xmlns="http://docs.oasis-open.org/tosca/ns/2011/12"
+             id="featurePolicyTypes-FreezableComponent" xmlns="http://docs.oasis-open.org/tosca/ns/2011/12"
 >
     <PolicyType name="FreezableComponent" abstract="no" final="no"
                 targetNamespace="http://opentosca.org/management/features/policytypes"/>

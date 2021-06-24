@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Definitions xmlns="http://docs.oasis-open.org/tosca/ns/2011/12" targetNamespace="http://opentosca.org/features/nodetypeimplementations" id="winery-defs-featureNodeTypeImplementations-MySQL-DB_Freeze-Defrost-Impl-w1">
+<Definitions xmlns="http://docs.oasis-open.org/tosca/ns/2011/12" targetNamespace="http://opentosca.org/features/nodetypeimplementations" id="featureNodeTypeImplementations-MySQL-DB_Freeze-Defrost-Impl-w1">
     <NodeTypeImplementation xmlns:featureNodeTypes="http://opentosca.org/management/features/nodetypes" targetNamespace="http://opentosca.org/features/nodetypeimplementations" name="MySQL-DB_Freeze-Defrost-Impl-w1" abstract="no" final="no" nodeType="featureNodeTypes:MySQL-DB_Freeze-Defrost-w1">
         <ImplementationArtifacts>
             <ImplementationArtifact xmlns:ToscaBaseTypes="http://docs.oasis-open.org/tosca/ns/2011/12/ToscaBaseTypes" xmlns:featureArtifacts="http://opentosca.org/management/features/artifacttemplates" name="Freeze" interfaceName="http://opentosca.org/interfaces/state" operationName="freeze" artifactType="ToscaBaseTypes:ScriptArtifact" artifactRef="featureArtifacts:MySQL-DB_Freeze-w1"/>
