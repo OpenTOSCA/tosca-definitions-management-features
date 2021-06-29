@@ -1,38 +1,38 @@
 {
-  "http://opentosca.org/management/features/nodetypes": {
-    "namespace": "http://opentosca.org/features/nodetypes",
-    "prefix": "featureNodeTypes",
-    "readableName": "",
-    "upstreamRepository": "",
-    "patternCollection": false,
-    "secureCollection": false,
-    "generatedNamespace": false
+  "http://opentosca.org/management/features/nodetypes" : {
+    "namespace" : "http://opentosca.org/features/nodetypes",
+    "prefix" : "featureNodeTypes",
+    "readableName" : "",
+    "upstreamRepository" : "",
+    "patternCollection" : false,
+    "secureCollection" : false,
+    "generatedNamespace" : false
   },
-  "http://opentosca.org/management/features/policytypes": {
-    "namespace": "http://opentosca.org/management/features/policytypes",
-    "prefix": "featurePolicyTypes",
-    "readableName": "",
-    "upstreamRepository": "",
-    "secureCollection": false,
-    "generatedNamespace": false,
-    "patternCollection": false
+  "http://opentosca.org/management/features/policytypes" : {
+    "namespace" : "http://opentosca.org/management/features/policytypes",
+    "prefix" : "featurePolicyTypes",
+    "readableName" : "",
+    "upstreamRepository" : "",
+    "patternCollection" : false,
+    "secureCollection" : false,
+    "generatedNamespace" : false
   },
-  "http://opentosca.org/management/features/artifacttemplates": {
-    "namespace": "http://opentosca.org/management/features/artifacttemplates",
-    "prefix": "featureArtifacts",
-    "readableName": "",
-    "upstreamRepository": "",
-    "patternCollection": false,
-    "secureCollection": false,
-    "generatedNamespace": false
+  "http://opentosca.org/management/features/artifacttemplates" : {
+    "namespace" : "http://opentosca.org/management/features/artifacttemplates",
+    "prefix" : "featureArtifacts",
+    "readableName" : "",
+    "upstreamRepository" : "",
+    "patternCollection" : false,
+    "secureCollection" : false,
+    "generatedNamespace" : false
   },
-  "http://opentosca.org/management/features/nodetypeimplementations": {
-    "namespace": "http://opentosca.org/management/features/nodetypeimplementations",
-    "prefix": "featureNodeTypeImplementations",
-    "readableName": "",
-    "upstreamRepository": "",
-    "patternCollection": false,
-    "secureCollection": false,
-    "generatedNamespace": false
+  "http://opentosca.org/management/features/nodetypeimplementations" : {
+    "namespace" : "http://opentosca.org/management/features/nodetypeimplementations",
+    "prefix" : "featureNodeTypeImplementations",
+    "readableName" : "",
+    "upstreamRepository" : "",
+    "patternCollection" : false,
+    "secureCollection" : false,
+    "generatedNamespace" : false
   }
 }
