@@ -2,6 +2,20 @@
 
 > Example TOSCA definitions demonstrating the [management feature enrichment functionality](https://www.iaas.uni-stuttgart.de/publications/INPROC-2019-33-Adding_Managment_Features.pdf) implemented in the [OpenTOSCA ecosystem](http://opentosca.github.io).
 
+## Usage
+
+This repository uses [git lfs](https://git-lfs.github.com/) as it contains large binary files which are not checked in to the git tree.
+Therefore, make sure that
+  1. you have an active git lfs installation on your machine,
+  2. run `git lfs install` directly after cloning the repository inside the cloned folder, and
+  3. run `git lfs pull` to download the binary files.
+
+⚠️ If the lfs-files are not downloaded, the repository, and thus the modeled applications, cannot run! 
+Thus, ensure you run `git lfs pull`.
+
+💡 To install git lfs globally, run `git lfs install --system`. 
+This makes git lfs automatically available for all repositories and you do not have to run git lfs pull yourself.
+
 ## Haftungsausschluss
 
 Dies ist ein Forschungsprototyp und enthält insbesondere Beiträge von Studenten. Diese Software enthält möglicherweise
