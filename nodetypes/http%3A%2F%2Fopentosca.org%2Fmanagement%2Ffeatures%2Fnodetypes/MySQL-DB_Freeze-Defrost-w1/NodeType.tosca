@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Definitions xmlns="http://docs.oasis-open.org/tosca/ns/2011/12" xmlns:winery="http://www.opentosca.org/winery/extensions/tosca/2013/02/12" targetNamespace="http://opentosca.org/features/nodetypes" id="features-MySQL-DB_Freeze-Defrost-w1">
-    <NodeType name="MySQL-DB_Freeze-Defrost-w1" abstract="no" final="no" targetNamespace="http://opentosca.org/features/nodetypes" winery:bordercolor="#c769c9">
+    <NodeType name="MySQL-DB_Freeze-Defrost-w1" abstract="no" final="no" targetNamespace="http://opentosca.org/management/features/nodetypes" winery:bordercolor="#c769c9">
         <Tags>
             <Tag name="isStateful" value="true"/>
         </Tags>
