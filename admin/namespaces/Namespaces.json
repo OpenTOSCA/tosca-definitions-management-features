@@ -17,15 +17,6 @@
     "repositoryId" : "OpenTOSCA-ManagementFeatures",
     "secureCollection" : false
   },
-  "http://opentosca.org/features/nodetypes" : {
-    "namespace" : "http://opentosca.org/features/nodetypes",
-    "prefix" : "featureNodeTypes",
-    "readableName" : "",
-    "generatedNamespace" : false,
-    "patternCollection" : false,
-    "repositoryId" : "OpenTOSCA-ManagementFeatures",
-    "secureCollection" : false
-  },
   "http://opentosca.org/management/features/artifacttemplates" : {
     "namespace" : "http://opentosca.org/management/features/artifacttemplates",
     "prefix" : "featureArtifacts",
