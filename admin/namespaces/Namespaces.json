@@ -1,7 +1,7 @@
 {
   "http://opentosca.org/management/features/nodetypes" : {
     "namespace" : "http://opentosca.org/management/features/nodetypes",
-    "prefix" : "http://opentoscaorg/management/features/nodetypes",
+    "prefix" : "featureNodeTypes",
     "readableName" : "",
     "generatedNamespace" : false,
     "patternCollection" : false,
