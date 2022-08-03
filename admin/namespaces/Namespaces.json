@@ -1,10 +1,11 @@
 {
   "http://opentosca.org/management/features/nodetypes" : {
-    "namespace" : "http://opentosca.org/features/nodetypes",
-    "prefix" : "featureNodeTypes",
+    "namespace" : "http://opentosca.org/management/features/nodetypes",
+    "prefix" : "http://opentoscaorg/management/features/nodetypes",
     "readableName" : "",
     "generatedNamespace" : false,
     "patternCollection" : false,
+    "repositoryId" : "OpenTOSCA-ManagementFeatures",
     "secureCollection" : false
   },
   "http://opentosca.org/management/features/policytypes" : {
@@ -13,6 +14,16 @@
     "readableName" : "",
     "generatedNamespace" : false,
     "patternCollection" : false,
+    "repositoryId" : "OpenTOSCA-ManagementFeatures",
+    "secureCollection" : false
+  },
+  "http://opentosca.org/features/nodetypes" : {
+    "namespace" : "http://opentosca.org/features/nodetypes",
+    "prefix" : "featureNodeTypes",
+    "readableName" : "",
+    "generatedNamespace" : false,
+    "patternCollection" : false,
+    "repositoryId" : "OpenTOSCA-ManagementFeatures",
     "secureCollection" : false
   },
   "http://opentosca.org/management/features/artifacttemplates" : {
@@ -21,6 +32,7 @@
     "readableName" : "",
     "generatedNamespace" : false,
     "patternCollection" : false,
+    "repositoryId" : "OpenTOSCA-ManagementFeatures",
     "secureCollection" : false
   },
   "http://opentosca.org/management/features/nodetypeimplementations" : {
@@ -29,6 +41,7 @@
     "readableName" : "",
     "generatedNamespace" : false,
     "patternCollection" : false,
+    "repositoryId" : "OpenTOSCA-ManagementFeatures",
     "secureCollection" : false
   }
 }
