@@ -3,6 +3,7 @@
     <NodeType name="MySQL-DB_Freeze-Defrost-w1" abstract="no" final="no" targetNamespace="http://opentosca.org/management/features/nodetypes" winery:bordercolor="#c769c9">
         <Tags>
             <Tag name="isStateful" value="true"/>
+            <Tag name="feature" value="Freeze and defrost"/>
         </Tags>
         <DerivedFrom xmlns:nodeTypes="http://opentosca.org/nodetypes" typeRef="nodeTypes:MySQL-DB_w1"/>
         <Interfaces>
