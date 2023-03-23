@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Definitions xmlns="http://docs.oasis-open.org/tosca/ns/2011/12" xmlns:ns0="http://www.opentosca.org/winery/extensions/tosca/2013/02/12" xmlns:selfservice="http://www.eclipse.org/winery/model/selfservice" xmlns:testwineryopentoscaorg="http://test.winery.opentosca.org" targetNamespace="http://opentosca.org/management/features/artifacttemplates" id="featureArtifacts-Java_Test-w1">
+    <ArtifactTemplate xmlns:ToscaBaseTypes="http://docs.oasis-open.org/tosca/ns/2011/12/ToscaBaseTypes"  name="Java_Test-w1" id="Java_Test-w1" type="ToscaBaseTypes:ScriptArtifact">
+        <ArtifactReferences>
+            <ArtifactReference reference="artifacttemplates/http%253A%252F%252Fopentosca.org%252Fmanagement%252Ffeatures%252Fartifacttemplates/Java_Test-w1/files/test.sh"/>
+        </ArtifactReferences>
+    </ArtifactTemplate>
+</Definitions>
