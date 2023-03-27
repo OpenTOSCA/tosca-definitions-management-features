@@ -12,7 +12,7 @@ mysql -u$dbmsroot -p$dbmspw -e "use mysql; create database $databasename;"
 mysql -u$dbmsroot -p$dbmspw -e "use mysql; create user '$databaseuser'@'%' identified by '$databasepw'; grant all privileges on $databasename.* to '$databaseuser'@'%'; flush privileges;"
 
 #find csar root
-csarRoot=$(find ~ -maxdepth 1 -path "*.csar")
+csarRoot=$(find ./ -maxdepth 1 -path "*.csar")
 
 # iterate over map of DAs
 IFS=';' read -ra NAMES <<<"$DAs"
