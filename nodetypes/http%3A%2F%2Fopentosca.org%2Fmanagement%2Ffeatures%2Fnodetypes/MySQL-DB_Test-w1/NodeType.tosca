@@ -7,7 +7,7 @@
         </Tags>
         <DerivedFrom xmlns:otntyIgeneral="http://opentosca.org/nodetypes" typeRef="otntyIgeneral:MySQL-DB_w1"/>
         <Interfaces>
-            <Interface name="http://opentosca.org/interfaces/tests">
+            <Interface name="http://opentosca.org/interfaces/test">
                 <Operation name="testConnection">
                     <InputParameters>
                         <InputParameter name="DBName" type="xsd:string" required="yes"/>
